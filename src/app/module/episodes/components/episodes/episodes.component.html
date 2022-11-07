@@ -1,0 +1,10 @@
+<div class="episodes">
+  <app-episode *ngFor="let episode of episodes" [episode]="episode" class="episode"></app-episode>
+</div>
+<div class="paginate">
+  <button [disabled]="!results.info.prev" (click)="prevPage()" >Prev</button>
+  <button [disabled]="!results.info.next"  (click)="nextPage()" >Next</button>
+</div>
+
+
+

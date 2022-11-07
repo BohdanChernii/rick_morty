@@ -1,0 +1,20 @@
+<mat-card style="height: 100px;width: 400px;">
+  <mat-card-title style="font-size: 20px">
+    {{episode.name}}
+  </mat-card-title>
+  <mat-card-subtitle>
+    Episode: {{episode.episode}}
+  </mat-card-subtitle>
+  <mat-card-subtitle>
+    Date: {{episode.air_date}}
+    <mat-card-actions style="padding: 0">
+      <button mat-button style="padding: 0; color: blue" (click)="getDetails()" >Details</button>
+    </mat-card-actions>
+  </mat-card-subtitle>
+
+</mat-card>
+
+
+
+
+

@@ -1,0 +1,8 @@
+<mat-card style="box-shadow: 10px 10px 10px; background: rgba(0, 0, 0, 0.2);margin: 0">
+  <mat-card-title>Name: {{details.name}} </mat-card-title>
+  <mat-card-subtitle style="margin-top:20px">Data: {{details.air_date}}</mat-card-subtitle>
+  <mat-card-subtitle>Episode: {{details.episode}}</mat-card-subtitle>
+</mat-card>
+<div class="characters" style="margin-top: 20px; display: flex; flex-wrap: wrap; ">
+  <app-character *ngFor="let characterId of charactersIds" [characterId]="characterId" style="margin: auto; width: 500px; height: 800px"></app-character>
+</div>

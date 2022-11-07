@@ -1,0 +1,10 @@
+<div *ngIf="character">
+  <mat-card class="card">
+    <img src={{character.image}} alt="image" style="width: 100%">
+    <mat-card-subtitle class="card-item">Name: {{character.name}}</mat-card-subtitle>
+    <mat-card-subtitle class="card-item">Status: {{character.status}}</mat-card-subtitle>
+    <mat-card-subtitle class="card-item">Species: {{character.species}}</mat-card-subtitle>
+    <mat-card-subtitle class="card-item">Gender: {{character.gender}}</mat-card-subtitle>
+    <mat-card-subtitle class="card-item">Location: {{character.location.name}}</mat-card-subtitle>
+  </mat-card>
+</div>

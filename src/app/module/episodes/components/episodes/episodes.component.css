@@ -1,0 +1,27 @@
+.episodes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.episode{
+  margin: auto;
+}
+
+.paginate{
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-around;
+}
+.paginate>button{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100px;
+  font-weight: 900;
+  font-size: 25px;
+  cursor: pointer;
+  background: #673ab7;
+  border-radius: 5px;
+  color: white;
+}
